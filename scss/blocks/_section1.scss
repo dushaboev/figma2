@@ -1,0 +1,104 @@
+.section1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1440px;
+    height: 240px;
+    margin: 0 auto;
+    .section1__title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color: white;
+        width: 808px;
+        height: 72px;
+        margin-top: 80px;
+    }
+    .section1__frame{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        width: 548px;
+        height: 48px;
+        margin-top: 40px;
+        .section1__frame-btn-1{
+            width: 52px;
+            height: 48px;
+            border: none;
+            color: #C8C7D8;
+            background: #393953;
+            border-radius: 7.29px;
+        }
+        .section1__frame-btn{
+            width: 68px;
+            height: 48px;
+            border: none;
+            color: #C8C7D8;
+            border-radius: 7.29px;
+            background: transparent;
+        }.section1__frame-btn-2{
+            width: 68px;
+            height: 48px;
+            border: none;
+            color: #C8C7D8;
+            border-radius: 7.29px;
+            background: transparent;
+        }.section1__frame-btn-3{
+            width: 68px;
+            height: 48px;
+            border: none;
+            color: #C8C7D8;
+            border-radius: 7.29px;
+            background: transparent;
+        }.section1__frame-btn-4{
+            width: 68px;
+            height: 48px;
+            border: none;
+            color: #C8C7D8;
+            border-radius: 7.29px;
+            background: transparent;
+        }
+        .section1__frame-right{
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 320px){
+    .section1{
+        width: 100%;
+        .section1__title{
+            width: 100%;
+            font-size: 22px;
+            margin-top: 24px
+        }
+        .section1__frame{
+            gap: 16px;
+            width: 100%;
+            .section1__frame-btn-1{
+                width: 50px;
+                height: 40px;
+                margin-left: 24px;
+            }
+            .section1__frame-btn{
+                width: 92px;
+                height: 40px;
+            }
+            .section1__frame-btn-2{
+                width: 92px;
+                height: 40px;
+            }
+            .section1__frame-btn-3{
+                display: none
+            }
+            .section1__frame-btn-4{
+                display: none;
+            }
+            .section1__frame-right{
+                display: block;
+                margin-right: 16px;
+            }
+        }
+    }
+}

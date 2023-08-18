@@ -1,0 +1,173 @@
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 1816px;
+    margin: 0 auto;
+    margin-top: 80px;
+    .section2__expenses{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        width: 808px;
+        height: 1656px;
+        .section2__expenses-content1{
+            display: flex;
+                gap: 32px;
+                width: 808px;
+                height: 144px;
+                border-radius: 16px;
+                background: #393953;            
+                .content__text1{
+                    width: 619px;
+                height: 96px;
+                margin-left: 24px;
+                .content__text-h1{
+                    color: var(--base-white, #FFF);
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: -0.34px;
+                }
+                .content__text-h2{
+                    color: var(--text-icon-secondary, #C8C7D8);
+                    font-family: Space Mono;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; 
+                }
+                .content__text-p{
+                    color: var(--text-icon-primary, #FFF);
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 450;
+                    line-height: 24px; 
+                    letter-spacing: -0.176px;
+                }
+                
+            }
+        }
+        .content__text2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 109px;
+            height: 84px;
+            color: white;
+            gap: 16px;
+            margin-top: -14px;
+        }
+            .section2__expenses-content{
+                display: flex;
+                gap: 32px;
+                width: 808px;
+                height: 144px;
+                border-radius: 16px;
+                background: #393953;
+            .content__text{
+                width: 619px;
+                height: 96px;
+                margin-left: 24px;
+                .content__text-h1{
+                    color: var(--base-white, #FFF);
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: -0.34px;
+                }
+                .content__text-h2{
+                    color: var(--text-icon-secondary, #C8C7D8);
+                    font-family: Space Mono;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; 
+                }
+                .content__text-p{
+                    color: var(--text-icon-primary, #FFF);
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 450;
+                    line-height: 24px; 
+                    letter-spacing: -0.176px;
+                }
+            }
+            .content__text2-2{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 16px;
+                width: 185px;
+                height: 84px;
+                color: white;
+                margin-top: -14px;
+                margin-right: 24px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 320px){
+     .section2{
+        margin-top: -80px;
+        width: 100%;
+        .section2__expenses{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            .section2__expenses-content1{
+                width: 272px;
+                height: 185px;
+                .content__text1{
+                    width: 163px;
+                    height: 140px;
+                    margin-left: 16px;
+                }
+                .content__text-h1{
+                    font-size: 16px;
+                }
+                .content__text-h2{
+                    margin-top: -15px;
+                }
+                .content__text-p{
+                    width: 163px;
+                    margin-top: -8px;
+                }
+                .content__text2 h3{
+                    font-size: 14px;
+                }
+                .content__text2 img{
+                    display: none;
+                }
+            }
+            .section2__expenses-content{
+                width: 272px;
+                height: 108px;
+                .content__text{
+                    width: 163px;
+                    height: 76px;
+                    .content__text-h1{
+                        font-size: 16px;
+                    }
+                    .content__text-h2{
+                        font-size: 14px;
+                        margin-top: -9px;   
+                    }
+                    .content__text-p{
+                        font-size: 14px;
+                        margin-top: -9px;
+                    }
+                }
+                    .content__text2-2 h3{
+                        font-size: 14px;
+                    }
+                    .content__text2-2 img{
+                        display: none;
+                    }
+            }
+        }
+     }
+}
